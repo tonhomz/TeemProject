@@ -1,0 +1,21 @@
+create table coviddata
+yearnum INTEGER NOT NULL,
+weeknum int,
+new_case int,
+total_case int,
+new_case_excludeabroad int,
+total_case_excludeabroad int,
+new_recovered int,
+total_recovered int,
+new_death int,
+total_death int,
+case_foreign int,
+case_prison int,
+case_walkin int,
+case_new_prev int,
+case_new_diff int,
+death_new_prev int,
+death_new_diff int,
+update_date varchar(40),
+PRIMARY KEY (yearnum)
+);

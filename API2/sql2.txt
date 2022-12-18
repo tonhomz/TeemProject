@@ -1,0 +1,13 @@
+create table Coviddata2
+yearnum INTEGER NOT NULL,
+weeknum int,
+province varchar(100),
+new_case int,
+total_case int,
+new_case_excludeabroad int,
+total_case_excludeabroad int,
+new_death int,
+total_death int,
+update_date varchar(40),
+PRIMARY KEY (yearnum)
+);
